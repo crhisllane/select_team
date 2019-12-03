@@ -108,10 +108,10 @@ package run {
                 }
             }
             if ($count < 6){
-                print ("TIME $timeCount: $jogador\t$valueTime\n");
+                print ("TIME $timeCount: $jogador\n");
                 $done = $done . " " . $jogador;
             } elsif ($count == 6){
-                print ("TIME $timeCount: $jogador\t$valueTime\n");
+                print ("TIME $timeCount: $jogador\n");
                 $done = $done . " " . $jogador;
                 $timeCount++ ;
                 $valorDeTodosOsTimes = $valorDeTodosOsTimes + $valueTimeAll;
